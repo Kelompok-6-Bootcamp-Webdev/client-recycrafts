@@ -8,10 +8,10 @@ const Faq: React.FC = () => {
   };
 
   return (
-    <section className="container mx-auto my-20">
+    <section className="container mx-auto my-10 lg:my-20">
       <div className="bg-white p-5 rounded-lg shadow flex max-w-7xl mx-auto">
         <div className="w-1/2 flex flex-col items-center">
-          <img src="assets/image/icon-faq.svg" alt="icon-faq" />
+          <img src="/assets/image/icon-faq.svg" alt="icon-faq" />
           <h2 className="text-2xl font-bold text-orange-500">Frequently Asked Questions</h2>
           <p className="text-sm text-gray-600">
             Ingin bertanya?{' '}
@@ -33,7 +33,7 @@ const Faq: React.FC = () => {
               </h3>
               <img
                 id="icon-faq1"
-                src={openFAQ === 'faq1' ? 'assets/image/icons/up.svg' : 'assets/image/icons/down.svg'}
+                src={openFAQ === 'faq1' ? '/assets/image/icons/up.svg' : '/assets/image/icons/down.svg'}
                 alt="toggle"
                 className="w-5"
               />
@@ -54,7 +54,7 @@ const Faq: React.FC = () => {
               </h3>
               <img
                 id="icon-faq2"
-                src={openFAQ === 'faq2' ? 'assets/image/icons/up.svg' : 'assets/image/icons/down.svg'}
+                src={openFAQ === 'faq2' ? '/assets/image/icons/up.svg' : '/assets/image/icons/down.svg'}
                 alt="toggle"
                 className="w-5"
               />
@@ -73,7 +73,7 @@ const Faq: React.FC = () => {
               <h3 className="font-bold text-gray-800">Apakah kerahasiaan data saya terjamin?</h3>
               <img
                 id="icon-faq3"
-                src={openFAQ === 'faq3' ? 'assets/image/icons/up.svg' : 'assets/image/icons/down.svg'}
+                src={openFAQ === 'faq3' ? '/assets/image/icons/up.svg' : '/assets/image/icons/down.svg'}
                 alt="toggle"
                 className="w-5"
               />
@@ -92,7 +92,7 @@ const Faq: React.FC = () => {
               <h3 className="font-bold text-gray-800">Bagaimana cara melakukan pembelian?</h3>
               <img
                 id="icon-faq4"
-                src={openFAQ === 'faq4' ? 'assets/image/icons/up.svg' : 'assets/image/icons/down.svg'}
+                src={openFAQ === 'faq4' ? '/assets/image/icons/up.svg' : '/assets/image/icons/down.svg'}
                 alt="toggle"
                 className="w-5"
               />
